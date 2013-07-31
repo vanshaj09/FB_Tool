@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>My Facebook My Life</title>
+		<script src="js/jquery-1.8.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+        <script src="js/show_friend.js"></script>
+        <link rel="stylesheet" href="css/show_friend.css"/>
+        <link rel="shortcut icon" href="Images/marquee8.jpg"/>
+    </head>
+    
+    <body>
+       <div class="container">
+            <div class="album">
+              <a href="show_friend.html"><ul><li><img id="one" src="Picture/image/wall12.jpg"/></li></ul></a>
+            </div>
+			 
+           <div id="fb-root"></div>
+           <div id="fb-root"></div>
+           
+           						 <!-- Login User Section-->
+          
+           <div class="login_user">   		
+                <p class="profile_auth">
+                	<fb:profile-pic id='loggedinuser' facebook-logo='true'  linked="true" width='65px' height:'55px'/>
+                </p>
+	          	<fb:login-button autologoutlink="true" id="logout_btn"/>
+      	   </div>
+            					<!-- Search Button Section-->
+           <button type="submit" id="search_btn" onClick="search_frnd(searching)"></button>
+           <input type="text" id="searching" placeholder="Search Your Friend"/>
+           <br/><br/><br/>
+          
+            					<!-- Open Friend Section-->
+           <button type="submit" id="friend_open" title="Open All Friend" onClick="location.reload(true);"></button>
+           <br/><br/><br/><br/><br/>
+          <div id=curTime></div>   <!--show time-->
+            <br/>
+            					<!-- Load Friends Section -->
+           <div class="loading">
+              <img src="Picture/Images/loading (1).gif" class="load_img"/>
+           </div>
+           </div>
+			
+    </body>
+ </html>
