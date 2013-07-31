@@ -1,8 +1,0 @@
-This is Vanshaj File 
-
-enter command : vim file_name.extension
-Then in VIM press I for insert
-After written the file
-Then press Esc and watch the magic in the bottom your editor will done and know you are in command zone just write
-
-:wq for saving your linux file.
